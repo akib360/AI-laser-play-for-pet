@@ -5,7 +5,7 @@
 | Date     : August 25, 2018								|
 | OS       : Windows 10 x64 machine							|
 | Language : Python (V-2.7)								|							|
-| Library  : OpenCV (V-3.0)								|							|
+| Library  : OpenCV (V-3.0)								|		
 |_______________________________________________________________________________________|"""
 
 
