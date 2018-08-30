@@ -1,5 +1,5 @@
 """_____________________________________________________________________________________
-| Author   : Md Akib Hosen Khan		   						|
+| Author   : Md Akib Hosen Khan		   					|
 |	     4th year student, dept of Information & Communication Engineering  	|
 |	     Islamic University, Bangladesh						|
 | Date     : August 25, 2018								|
