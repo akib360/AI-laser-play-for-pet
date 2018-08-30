@@ -1,12 +1,12 @@
-"""_____________________________________________________________________________
-| Author   : Md Akib Hosen Khan													|
-|		     4th year student, dept of Information & Communication Engineering  |
-|			 Islamic University, Bangladesh										|
-| Date     : August 25, 2018													|
-| OS       : Windows 10 x64 machine												|
-| Language : Python																|
-| Library  : OpenCV																|
-|_______________________________________________________________________________|"""
+"""______________________________________________________________________________________
+| Author   : Md Akib Hosen Khan								|
+|	     4th year student, dept of Information & Communication Engineering  	|
+|	     Islamic University, Bangladesh						|
+| Date     : August 25, 2018								|
+| OS       : Windows 10 x64 machine							|
+| Language : Python (V-2.7)								|							|
+| Library  : OpenCV (V-3.0)								|							|
+|_______________________________________________________________________________________|"""
 
 
 import cv2
