@@ -60,7 +60,7 @@ while True:
 	# loop over the contours
 	for c in contours:
 		
-		if cv2.contourArea(c) < 400:   # for calculate contours
+		if cv2.contourArea(c) < 400:   # for calculate a contour area
 			continue
 
 
