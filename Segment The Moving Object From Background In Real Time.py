@@ -60,18 +60,12 @@ while True:
 	# loop over the contours
 	for c in contours:
 		
-		if cv2.contourArea(c) < 400:   
+		if cv2.contourArea(c) < 400:   # for calculate contours
 			continue
 
 
-		# contour data 
-		M = cv2.moments(c) 
-		cx = int(M['m10']/M['m00'])
-		cy = int(M['m01']/M['m00'])
+		# rectangle data 
 		x, y, w, h =cv2.boundingRect(c)
-		rx = x + int(w/2)
-		ry = y + int(h/2)
-		ca = cv2.contourArea(c)
 
 		# plot contours
 		cv2.drawContours(frame6, [c], 0, (1,1,1), 2)
@@ -88,7 +82,7 @@ while True:
 	cv2.imshow('Frame2 : Blur ', frame2)
 	cv2.imshow('Frame3 : Delta ', frame3)
 	cv2.imshow('Frame4 : Threshold ', frame4)
-	cv2.imshow('Frame5 : Dialated ', frame5)
+	cv2.imshow('Frame5 : Dilated ', frame5)
 	cv2.imshow('Frame6 : Contours ', frame6)
 
 
